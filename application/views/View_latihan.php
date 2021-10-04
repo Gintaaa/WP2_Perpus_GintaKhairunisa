@@ -6,8 +6,7 @@
     <style type="text/css">
     	h1{
     		font-family: 'Ephesis', cursive;
-    		font-color: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-			}
+    		}
     </style>
 </head>
 
