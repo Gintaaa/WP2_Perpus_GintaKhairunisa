@@ -30,6 +30,13 @@
 				<td>Nama MTK</td>
 				<td>:</td>
 				<td>
+					<?= $nama; ?>
+				</td>
+			</tr>
+			<tr>
+				<td>SKS</td>
+				<td>:</td>
+				<td>
 					<?= $sks; ?>
 				</td>
 			</tr>
