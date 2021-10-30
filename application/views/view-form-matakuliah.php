@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<title>Form Input MataKuliah</title>
+	<title>Form Input Mata Kuliah</title>
 </head>
 <body>
 	<center>
@@ -9,7 +9,7 @@
 			<table>
 				<tr>
 					<th colspan="3">
-						Form Input Data Mata Kuliah
+						Form Input Data Transaksi Toko Sepatu
 					</th>
 				</tr>
 				<tr>
@@ -18,14 +18,14 @@
 					</td>
 				</tr>
 				<tr>
-					<th>Kode MTK</th>
+					<th>Nama Pembeli </th>
 					<th>:</th>
 					<td>
-						<input type="text" name="kode" id="kode">
+						<input type="text" name="nama" id="nama">
 					</td>
 				</tr>
 				<tr>
-					<th>Nama MTK</th>
+					<th>No.HP</th>
 					<td>:</td>
 					<td>
 						<input type="text" name="nama" id="nama">
