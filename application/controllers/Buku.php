@@ -103,11 +103,11 @@ class Buku extends CI_Controller
             ]); 
      
             if ($this->form_validation->run() == false) { 
-                $this->load->view('templates/header', $data); 
-                $this->load->view('templates/sidebar', $data); 
-                $this->load->view('templates/topbar', $data); 
+                $this->load->view('admin/header', $data); 
+                $this->load->view('admin/sidebar', $data); 
+                $this->load->view('admin/topbar', $data); 
                 $this->load->view('buku/kategori', $data); 
-                $this->load->view('templates/footer'); 
+                $this->load->view('admin/footer'); 
             } else { 
                 $data = [ 
      
@@ -182,11 +182,11 @@ class Buku extends CI_Controller
         $this->load->library('upload', $config); 
  
         if ($this->form_validation->run() == false) { 
-            $this->load->view('templates/header', $data); 
-            $this->load->view('templates/sidebar', $data); 
-            $this->load->view('templates/topbar', $data); 
+            $this->load->view('admin/header', $data); 
+            $this->load->view('admin/sidebar', $data); 
+            $this->load->view('admin/topbar', $data); 
             $this->load->view('buku/ubah_buku', $data); 
-            $this->load->view('templates/footer'); 
+            $this->load->view('admin/footer'); 
         } else { 
             if ($this->upload->do_upload('image')) { 
                 $image = $this->upload->data(); 
