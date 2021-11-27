@@ -26,10 +26,10 @@
                         foreach ($kategori as $k) { ?> 
                     <tr> 
                         <th scope="row"><?= $a++; ?></th> 
-                        <td><?= $k['nama_kategori']; ?></td> 
+                        <td><?= $k['kategori']; ?></td> 
                         <td> 
                             <a href="<?= base_url('buku/ubahBuku/').$k['id'];?>" class="badge badge-info"><i class="fas fa-edit"></i> Ubah</a> 
-                            <a href="<?= base_url('buku/hapusKategori/').$k['id'];?>" onclick="return confirm('Kamu yakin akan menghapus <?= $judul.' '.$k['nama_kategori'];?> ?');" class="badge badge-danger"><i class="fas fa-trash"></i> Hapus</a> 
+                            <a href="<?= base_url('buku/hapusKategori/').$k['id'];?>" onclick="return confirm('Kamu yakin akan menghapus <?= $judul.' '.$k['kategori'];?> ?');" class="badge badge-danger"><i class="fas fa-trash"></i> Hapus</a> 
                         </td> 
                     </tr> 
                     <?php } ?>
